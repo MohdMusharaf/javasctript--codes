@@ -1,0 +1,31 @@
+.gorest{
+    width: 300px;
+    background-color: aqua;
+    padding: 30px 30px 30px 50px ;
+    margin-left: 500px;
+}
+.head{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.labelClass{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.divRequestMethod{
+    padding-bottom: 10px;
+}
+
+.sameInput{
+    outline-color: yellow;
+    width: 220px;
+    padding: 7px 10px 7px 10px;
+}
+
+#requestSend{
+    padding: 7px 15px 7px 15px;
+    font-size: medium;
+    font-weight: 600;
+}

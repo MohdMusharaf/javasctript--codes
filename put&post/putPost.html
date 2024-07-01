@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="putPost.css">
+</head>
+<body>
+    <div class="gorest">
+        <div class="head">
+            <h2>GO REST CONSOLE</h2>
+        </div>
+        <div class="divRequestMethod">
+            <label class="labelClass" >Request URL</label><br>
+        <input type="text" placeholder="ENTER URL" id="requestUrl" class="sameInput"> <br>
+        <span id="urlError" style="color: red;"></span>
+
+        </div>
+        <div class="divRequestMethod">
+            <label class="labelClass" >Request Method</label><br>
+            <select name="" id="requestMethod" class="sameInput">
+                <option value="POST">POST</option>
+                <option value="PUT">PUT</option>
+            </select>
+        </div>
+        <div class="divRequestMethod">
+            <label class="labelClass">Request Body</label><br>
+        <textarea name="" id="resquestBody" cols="30" rows="7"></textarea><br>
+        <span id="bodyError" style="color: red;"></span>
+        </div>
+        <div class="divRequestMethod">
+            <button type="submit" id="requestSend">send request</button>
+        </div>
+
+        <div class="divRequestMethod">
+            <label class="labelClass" >Response Status</label><br>
+        <input type="text"  id="responseStatus" class="sameInput"> 
+        </div>
+
+        <div class="divRequestMethod">
+            <label class="labelClass">Response Body</label><br>
+        <textarea name="" id="responseBody" cols="30" rows="7"></textarea>
+        </div>
+    </div>
+
+    <script src="putPost.js"></script>
+</body>
+</html>

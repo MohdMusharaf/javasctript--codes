@@ -1,0 +1,28 @@
+body{
+    background-color: lightblue;
+}
+
+.divAddUser{
+    background-color: white;
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 500px;
+    padding: 70px 50px;
+}
+.nameDiv{
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.nameId{
+    padding: 7px 10px ;
+    width: 200px;
+    outline-color: yellow;
+    
+}
+.sumbit{
+    padding: 10px 15px;
+    border: none;
+    background-color: lightblue;
+    margin-left: 100px;
+}

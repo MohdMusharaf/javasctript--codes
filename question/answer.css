@@ -1,0 +1,43 @@
+.answerDiv{
+    margin-top: 40px;
+    margin-left: 400px;
+    width: 300px;
+    padding: 50px 50px 100px 50px;
+    background-color: rgb(255, 30, 0);
+}
+.heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.innerDiv{
+    background-color: rgb(255, 255, 255);
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    padding-right: 20px;
+}
+.submit{
+    padding: 10px 15px ;
+    margin-left: 80px;
+    margin-top: 20px;
+    background-color: rgb(77, 125, 141);
+    border: 5px solid rgb(6, 6, 6);
+    border: 3px solid lightgreen;
+}
+.radioDiv{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+.span{
+    color: red;
+    font-size: medium;
+    font-weight: bold;
+}
+.perfect{
+    color: rgb(0, 255, 0);
+    font-size: medium;
+    font-weight: bold;
+}

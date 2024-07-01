@@ -1,0 +1,21 @@
+.divContent{
+    width: 500px;
+    background-color: lightblue;
+    margin-top: 100px;
+    margin-left: 500px;
+    padding: 100px 0px 100px 100px;
+}
+.nameInfo{
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 20px;
+    outline: none;
+}
+.gamilInfo{
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 20px;
+    width: 250px;
+    outline: none;
+}
+#eamilError{
+    gap: 20px;
+}

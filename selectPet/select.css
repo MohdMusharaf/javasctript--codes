@@ -1,0 +1,34 @@
+.petSelect{
+    width: 250px;
+    height: 250px;
+    background-image: url("parrot.png");
+    background-repeat:round;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+.parrot{
+    background-image: url("parrot.png");
+}
+.cat{
+    background-image: url("cat.png");
+}
+.dog{
+    background-image: url("dog.png");
+}
+.spider{
+    background-image: url("spider.png");
+}
+.rabbit{
+    background-image: url("rabbit.png");
+}
+
+.selectPet{
+    width: 100px;
+    text-align: center;
+    font-size: medium;
+    padding: 7px 10px 10px 0px;
+}
